@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    {% if prediction == 'Positive' %}
+    <h3>Thank you for providing a {{ prediction }} review! 😊 Your feedback is greatly appreciated and will help us improve our services.</h3>
+{% else %}
+    <h3>We're sorry to hear about your experience. 😔 Our team will address your concerns and strive to make things better.</h3>
+{% endif %}
+
+</body>
+</html>
